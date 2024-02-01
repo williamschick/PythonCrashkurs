@@ -6,4 +6,6 @@ Start learning Python with the following sources:
 
 other links
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+  - [Black](https://pypi.org/project/black/)
 - [pycodestyle’s documentation](https://pycodestyle.pycqa.org/en/latest/)
+- [PyTest](https://docs.pytest.org/en/8.0.x/)
