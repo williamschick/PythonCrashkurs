@@ -8,3 +8,8 @@ first_name = "william"
 last_name = "Schick"
 full_name = f"{first_name} {last_name}"
 print(f"Hello, {full_name.title()}")
+
+# this is not possible x, y, z = 0 
+x, y, z = 0, 0, 0
+
+print(f"{x} + {y} + {z}")
