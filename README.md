@@ -1,1 +1,1 @@
-# edX-CS50-Python
+# Python Crashkurs
