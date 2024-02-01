@@ -1,11 +1,21 @@
-try:
-    x = int(input("Give me a number ... "))
-    dict = {'1': x}
+while True: 
+    try:
+        x = int(input("Give me a number ... "))
+        break
+    except ValueError:
+        print("sorry not a number")
 
-    i = 0
-    while i < 3:
-        print(f"{dict['1']}")
-        i += 1
+print(f"number {x}")
 
-except ValueError:
-    print("sorry not a number")
+
+# try:
+#     x = int(input("Give me a number ... "))
+#     dict = {'1': x}
+
+#     i = 0
+#     while i < 3:
+#         print(f"{dict['1']}")
+#         i += 1
+
+# except ValueError:
+#     print("sorry not a number")
